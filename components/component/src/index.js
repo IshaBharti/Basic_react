@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import Heading from './Heading';
 import Table from './Table';
-import Para from "./Para";
+
 import {add,div ,mul,sub} from "./Cal";
 import Div   from "./Div";
 
@@ -56,7 +56,7 @@ ReactDOM.render(
       
     
     <h2><span style={csss_Style}>{greeting} </span></h2>
-    <Para/>
+    
     <Table/>
 
   </div>
